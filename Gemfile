@@ -28,6 +28,8 @@ gem 'spree_auth_devise'
 gem 'spree_gateway'
 
 gem 'spree_social', github: 'spree-contrib/spree_social', branch: '3-1-stable'
+gem 'spree_product_assembly', github: 'spree-contrib/spree-product-assembly', branch: '3-1-stable'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
