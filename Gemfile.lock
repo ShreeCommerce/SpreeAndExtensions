@@ -7,6 +7,14 @@ GIT
       spree_backend (~> 3.1.0.beta)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_handling_fees.git
+  revision: ce3deeb631c26a9acd3872e54a2cf966ef366dbf
+  branch: 3-0-stable
+  specs:
+    spree_handling_fees (3.0.0)
+      spree_core (~> 3.0)
+
+GIT
   remote: git://github.com/spree-contrib/spree_social.git
   revision: feae2e14c30886f2b99090af84be58bd1c7a17ca
   branch: 3-1-stable
@@ -390,6 +398,7 @@ DEPENDENCIES
   spree
   spree_auth_devise
   spree_gateway
+  spree_handling_fees!
   spree_product_assembly!
   spree_social!
   spring
